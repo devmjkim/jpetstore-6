@@ -135,12 +135,6 @@
       <artifactId>slf4j-simple</artifactId>
       <version>2.0.9</version>
     </dependency>
-    <dependency>
-      <groupId>org.hsqldb</groupId>
-      <artifactId>hsqldb</artifactId>
-      <version>${hsqldb.version}</version>
-      <classifier>jdk8</classifier>
-    </dependency>
 
     <!-- Test dependencies -->
     <dependency>
@@ -318,7 +312,6 @@
     <spring.version>5.3.30</spring.version>
     <assertj.version>3.24.2</assertj.version>
     <mockito.version>5.5.0</mockito.version>
-    <hsqldb.version>2.7.2</hsqldb.version>
     <module.name>org.mybatis.jpetstore</module.name>
 
     <!-- Reproducible Builds -->
